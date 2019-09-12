@@ -1,14 +1,14 @@
 # Write your code here.
 
 def batch_badge_creator(array)
-  array.each do |value| 
-    return "Hello, my name is #{value}."
+  array.map do |value| 
+  "Hello, my name is #{value}."
   end
 end
   
   
 def badge_maker(name)
-  return ("Hello, my name is #{name}.")
+  puts "Hello, my name is #{name}.")
 end
 
 def assign_room(name)
