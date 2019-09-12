@@ -15,7 +15,12 @@ end
 
 def assign_room(name)
   name.map.with_index do |name, index|
-    "Hello, #{name}! You'll be assigned to room #{index}!"
+    "Hello, #{name}! You'll be assigned to room #{index + 1}!"
   end
 end
 
+def printer(array)
+  batch_badge_creator(array).each_with_index  do |value, index|
+    puts "Hello, my name is #{value}. You'll be assigned to room #{index + 1}" 
+  end
+end
