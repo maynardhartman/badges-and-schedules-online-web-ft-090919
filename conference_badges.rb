@@ -7,9 +7,6 @@ def batch_badge_creator(array)
 end
   
   
-def badge_maker(name)
-  return "Hello, my name is #{name}."
-end
 
 def assign_rooms(array)
   name.map.with_index do |name, index|
