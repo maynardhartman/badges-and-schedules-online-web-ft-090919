@@ -11,7 +11,7 @@ def badge_maker(name)
   return "Hello, my name is #{name}."
 end
 
-def assign_room(name)
+def assign_rooms(name)
   name.map.with_index do |name, index|
   return "Hello, #{name}! You'll be assigned to room #{index + 1}!"
   end
@@ -21,7 +21,7 @@ def printer(array)
   batch_badge_creator(array).each  do |value|
     puts (value)
     end
-  assign_room(name, index).each do |value|
+  assign_rooms(name, index).each do |value|
     puts (value)
   end
 end
