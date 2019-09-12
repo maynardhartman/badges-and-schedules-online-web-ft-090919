@@ -14,6 +14,7 @@ def badge_maker(name)
 end
 
 def assign_room(name)
-  new_array = array.map do { |value|
-    
+  name.map.with_index do { |name, index|
+    "Hello, #{name}! You'll be assigned to room #{index}!"
+  end
 end
