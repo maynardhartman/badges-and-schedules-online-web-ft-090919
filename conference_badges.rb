@@ -1,11 +1,11 @@
 # Write your code here.
 return_array = Array.new
 def batch_badge_creator(array)
-  array.each_with_index do { |value| 
+  array.each_with_index do |value| 
     puts ("Hello, my name is #{value}.")
     return_array.push("Hello, my name is #{value}.")
   end
-  }
+  
 end
   
   
