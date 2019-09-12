@@ -8,7 +8,7 @@ end
   
   
 def badge_maker(name)
-  puts "Hello, my name is #{name}.")
+  return "Hello, my name is #{name}."
 end
 
 def assign_room(name)
@@ -19,6 +19,6 @@ end
 
 def printer(array)
   batch_badge_creator(array).each  do |value|
-    puts "#{value}"
+    puts (value)
     end
 end
