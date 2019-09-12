@@ -13,7 +13,7 @@ end
 
 def assign_rooms(array)
   name.map.with_index do |name, index|
-  return "Hello, #{name}! You'll be assigned to room #{index + 1}!"
+  "Hello, #{name}! You'll be assigned to room #{index + 1}!"
   end
 end
 
@@ -21,7 +21,7 @@ def printer(array)
   batch_badge_creator(array).map  do |value|
     puts value
   end
-  assign_rooms(array).each do |value|
+  assign_rooms(array).map do |value|
     puts value
   end
 end
