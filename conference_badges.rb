@@ -8,8 +8,6 @@ def batch_badge_creator(array)
   "Hello, my name is #{value}."
   end
 end
-  
-  
 
 def assign_rooms(array)
   name.map.with_index do |name, index|
